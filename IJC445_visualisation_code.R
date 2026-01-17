@@ -14,7 +14,7 @@ library(patchwork)
 # --------------------------
 # 1) Load data
 # --------------------------
-df <- read_csv("/Users/emil/Desktop/Sheffield/Courses/Data Vis/Assessment/Github/IJC445-Data_Visualisation/data/billboard_24years_lyrics_spotify.csv", show_col_types = FALSE) %>%
+df <- read_csv("data/billboard_24years_lyrics_spotify.csv", show_col_types = FALSE) %>%
   mutate(
     year = as.integer(year),
     ranking = as.integer(ranking),
